@@ -1,5 +1,5 @@
 # sixty_nice_bot
-Just replices "Nice." in chat any time it sees '69'
+Just replies "Nice." in chat any time it sees '69'
 
 
 ## How to use:
