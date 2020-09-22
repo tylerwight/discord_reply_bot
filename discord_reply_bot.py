@@ -22,9 +22,9 @@ async def on_ready():
 async def on_message(message):
     channel = client.get_channel(message.channel.id) # get channel id from message and use it to create channel object
 #    print (f'{channel}, {message.channel}')  # print some variables for debug
-    textSearch = "69"
-    if message.content.find(textSearch) != -1: # serach message for '69' anywhere
-        print( f'{message.content}\n') # print the mesage that triggered our "Nice."
-        await channel.send('Nice.')
+    textSearch = "Thanks"
+    if message.content.find(textSearch) != -1: # serach message for anywhere
+        print( f'{message.content}\n') # print the mesage that triggered our 
+        await channel.send('You are welcome')
 
 client.run(TOKEN)
