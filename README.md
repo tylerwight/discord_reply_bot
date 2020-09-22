@@ -1,5 +1,5 @@
-# sixty_nice_bot
-Just replies "Nice." in chat any time it sees '69'
+# discord_reply_bot
+Just replies with a string of your choice any time it sees a specific message
 
 
 ## How to use:
@@ -12,5 +12,5 @@ DISCORD_TOKEN=kjawe;tlkjnaw;etn;anwet
 * run the bot 
 
 ```
-python3 sixty_nice.py
+python3 discord_reply_bot.py
 ```
